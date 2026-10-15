@@ -2,9 +2,14 @@ from diary import add_entry, search_entries
 
 
 def main():
-    filename = input("Enter diary file name: ")
+   """
+    This function runs the diary application
+    It lets the user add entries, search by date, change the diary file, or exit the program
+    """
+   filename = input("Enter diary file name: ")
 
-    while True:
+
+   while True:
         print("\nDiary Application")
         print("1. Add a diary entry")
         print("2. Search by date")
