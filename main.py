@@ -12,7 +12,6 @@ def main():
         print("4. Exit")
 
         choice = input("Choose an option: ")
-
         if choice == "1":
             date = input("Enter date (YYYY-MM-DD): ")
             entry = input("Write your diary entry: ")
